@@ -1,0 +1,276 @@
+/*Menú*/
+.topheader {
+  position: fixed;
+  background-color: #04be4f;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.25rem;
+}
+
+.Menu-Horizontal {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+}
+
+.Menu-Horizontal li a {
+  display: block;
+  padding: 0.938rem 1.25rem;
+  color: white;
+  text-decoration: none;
+}
+
+.Menu-Vertical {
+  list-style: none;
+  padding: 0;
+  position: absolute;
+  display: none;
+  width: auto;
+  background-color: #04be4f;
+  border-radius: 1.25rem;
+}
+
+.Menu-Horizontal li a:hover {
+  color: rgb(65, 65, 177);
+}
+
+.Menu-Horizontal li:hover .Menu-Vertical {
+  display: block;
+}
+
+/*Sección Cuadernos*/
+.Seccion-Cuadernos {
+  padding: 3.75rem 1.25rem;
+  background-color: lightgray;
+}
+.div-gra1-Cuadernos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 2.5rem;
+}
+.div-Cuadernos-texto {
+  flex: 1;
+}
+.div-Cuadernos-texto h2 {
+  color: #04be4f;
+}
+.div-Cuadernos-texto p {
+  color: black;
+  line-height: 1;
+  font-size: 18px;
+  text-align: justify;
+}
+.div-Cuadernos-img {
+  flex: 1;
+}
+.ddiv-Cuadernos-img img {
+  width: 100%;
+  max-width: 31.25rem;
+  border-radius: 0.938rem;
+}
+.div-Cuadernos-texto button {
+  margin-top: 1.25rem;
+  padding: 0.625rem 1.25rem;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 1.25rem;
+  cursor: pointer;
+}
+
+/*Sección Lapices*/
+.Seccion-Lapi {
+  padding: 3.75rem 1.25rem;
+  background-color: white;
+}
+
+.div-gra1-Lapi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 2.5rem;
+}
+.div-Lapi-texto {
+  flex: 1;
+}
+.div-Lapi-texto h2 {
+  color: #04be4f;
+}
+.div-Lapi-texto p {
+  color: black;
+  line-height: 1;
+  font-size: 18px;
+  text-align: justify;
+}
+.div-Lapi-vid {
+  flex: 1;
+}
+.div-Lapi-vid iframe {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 0.938rem;
+}
+.div-Lapi-texto button {
+  margin-top: 1.25rem;
+  padding: 0.625rem 1.25rem;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 1.25rem;
+  cursor: pointer;
+}
+
+/*Sección Promociones*/
+.Seccion-Borradores {
+  padding: 3.75rem 1.25rem;
+  background-color: lightgray;
+}
+
+.div-gra1-Borradores {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 2.5rem;
+}
+.div-Borradores-texto {
+  flex: 1;
+}
+.div-Borradores-texto h2 {
+  color: #04be4f;
+}
+.div-Borradores-texto p {
+  color: black;
+  line-height: 1;
+  font-size: 18px;
+  text-align: justify;
+}
+.div-Borradores-vid {
+  flex: 1;
+}
+.div-Borradores-vid iframe {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 0.938rem;
+}
+.div-Borradores-texto button {
+  margin-top: 1.25rem;
+  padding: 0.625rem 1.25rem;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 1.25rem;
+  cursor: pointer;
+}
+
+/*Sección Contactanos*/
+
+.Seccion-Hojas {
+  padding: 3.75rem 1.25rem;
+  background-color: white;
+}
+.div-gra1-Hojas {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 2.5rem;
+}
+.div-Hojas-texto {
+  flex: 1;
+}
+.div-Hojas-texto h2 {
+  color: #04be4f;
+}
+.div-Hojas-texto p {
+  color: black;
+  line-height: 1;
+  font-size: 18px;
+  text-align: justify;
+}
+.div-Hojas-img {
+  flex: 1;
+}
+.div-Hojas-img img {
+  width: 100%;
+  max-width: 500px;
+}
+.div-Hojas-texto button {
+  margin-top: 0.625rem 1.25rem;
+  padding: 0.625rem 1.25rem;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 1.25rem;
+  cursor: pointer;
+}
+
+/*Sección Formulario*/
+.Seccion-Formulario {
+  background-color: #04be4f;
+  padding: 2.5rem;
+  border: 1.875rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2.5rem;
+}
+.div-cont-formulario {
+  background-color: whitesmoke;
+  padding: 1.875rem;
+  border: 0.125rem solid #00752f;
+  border-radius: 0.625rem;
+  width: 100%;
+  max-width: 500px;
+}
+.Campo {
+  background-color: #90fcbb;
+  padding: 0.938rem;
+  border: 0.063rem;
+  border-radius: 0.5rem;
+  margin-bottom: 0.938rem;
+  justify-content: center;
+}
+
+.Formulario-cliente label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: rgb(228, 132, 132);
+}
+
+.Formulario-cliente input[type="text"],
+.Formulario-cliente select {
+  width: 100%;
+  padding: 0.625rem;
+  border: 1px;
+  border-radius: 0.313rem;
+  box-sizing: border-box;
+}
+.Lista-Checkbox,
+.Lista-Radio {
+  list-style: none;
+  padding: 0.625rem;
+  margin: 0rem;
+  border: 0.063rem;
+  background-color: #f1ddfd;
+  border-radius: 0.5rem;
+}
+.Formulario-cliente button {
+  background-color: #90fcbb;
+  color: black;
+  border: 1.5rem;
+  border-radius: 0.313rem;
+  cursor: pointer;
+}
