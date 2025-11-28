@@ -277,30 +277,6 @@
 /*Responsive movil*/
 
 @media (max-width: 768px) {
-  .menu-toggle {
-    display: block;
-  }
-
-  .Menu-Horizontal {
-    display: none;
-    flex-direction: column;
-    width: 100%;
-    background-color: #ec8d09;
-    position: absolute;
-    top: 5rem;
-    left: 0;
-  }
-
-  .Menu-Horizontal li {
-    text-align: center;
-    width: 100%;
-    border-bottom: 1px solid white;
-  }
-
-  .Menu-Horizontal.show {
-    display: flex;
-  }
-
   .div-gra1-Cuadernos,
   .div-gra1-Lapi,
   .div-gra1-Borradores,
