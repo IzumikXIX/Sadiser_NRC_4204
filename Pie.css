@@ -1,9 +1,8 @@
 /* Footer general */
 .footer {
-  background-color: #025a0d; /* Fondo oscuro para contraste */
+  background-color: #c37201; /* Fondo oscuro para contraste */
   color: white;
   padding: 2rem 1rem;
-  font-family: "Roboto", sans-serif;
 }
 
 /* Contenedor flexible para 3 columnas */
@@ -40,6 +39,7 @@
   color: #ccc;
   text-decoration: none;
   margin: 0.3rem 0;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .footer-links a:hover {
