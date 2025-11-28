@@ -8,7 +8,7 @@ const menu = document.querySelector(".Menu-Horizontal");
 btn.addEventListener("click", () => {
   // Alterna (agrega o quita) la clase "active" en el menú
   // Esto hace que se muestre o se oculte
-  menu.classList.toggle("open");
+  menu.classList.toggle("active");
 
   // (opcional) También puedes alternar una clase en el botón si quieres cambiar su apariencia
   // btn.classList.toggle("open");
