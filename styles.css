@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Kablammo&display=swap");
 /*Menú*/
 .topheader {
   position: fixed;
@@ -61,6 +62,7 @@
 }
 .div-Cuadernos-texto h2 {
   color: #ec8d09;
+  font-family: "Kablammo", system-ui;
 }
 .div-Cuadernos-texto p {
   color: black;
@@ -104,6 +106,7 @@
 }
 .div-Lapi-texto h2 {
   color: #ec8d09;
+  font-family: "Kablammo", system-ui;
 }
 .div-Lapi-texto p {
   color: black;
@@ -148,6 +151,7 @@
 }
 .div-Borradores-texto h2 {
   color: #ec8d09;
+  font-family: "Kablammo", system-ui;
 }
 .div-Borradores-texto p {
   color: black;
@@ -192,6 +196,7 @@
 }
 .div-Hojas-texto h2 {
   color: #ec8d09;
+  font-family: "Kablammo", system-ui;
 }
 .div-Hojas-texto p {
   color: black;
@@ -246,7 +251,7 @@
   display: block;
   font-weight: 600;
   margin-bottom: 0.5rem;
-  color: rgb(228, 132, 132);
+  color: #430158;
 }
 
 .Formulario-cliente input[type="text"],
