@@ -21,7 +21,7 @@
 .Menu-Horizontal li a {
   display: block;
   padding: 0.938rem 1.25rem;
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
@@ -31,7 +31,7 @@
   position: absolute;
   display: none;
   width: auto;
-  background-color: #ec8d09;
+  background-color: gray;
   border-radius: 1.25rem;
 }
 
