@@ -73,8 +73,7 @@
 }
 .div-Cuadernos-img img {
   width: 100%;
-  max-width: 31.25rem;
-  border-radius: 0.938rem;
+  max-width: 500px;
 }
 .div-Cuadernos-texto button {
   margin-top: 1.25rem;
