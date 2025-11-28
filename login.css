@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Kablammo&display=swap");
 /* Contenedor principal: Centra el formulario */
 .login-container {
   display: flex;
@@ -25,6 +26,7 @@
   margin-bottom: 1.5625rem; /* 25px */
   color: #333;
   font-size: 1.8rem;
+  font-family: "Kablammo", system-ui;
 }
 
 /* División para agrupar Label e Input */
