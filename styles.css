@@ -1,7 +1,7 @@
 /*Menú*/
 .topheader {
   position: fixed;
-  background-color: #04be4f;
+  background-color: #ec8d09;
   width: 100%;
   height: auto;
   display: flex;
@@ -31,7 +31,7 @@
   position: absolute;
   display: none;
   width: auto;
-  background-color: #04be4f;
+  background-color: #ec8d09;
   border-radius: 1.25rem;
 }
 
@@ -60,7 +60,7 @@
   flex: 1;
 }
 .div-Cuadernos-texto h2 {
-  color: #04be4f;
+  color: #ec8d09;
 }
 .div-Cuadernos-texto p {
   color: black;
@@ -104,7 +104,7 @@
   flex: 1;
 }
 .div-Lapi-texto h2 {
-  color: #04be4f;
+  color: #ec8d09;
 }
 .div-Lapi-texto p {
   color: black;
@@ -148,7 +148,7 @@
   flex: 1;
 }
 .div-Borradores-texto h2 {
-  color: #04be4f;
+  color: #ec8d09;
 }
 .div-Borradores-texto p {
   color: black;
@@ -192,7 +192,7 @@
   flex: 1;
 }
 .div-Hojas-texto h2 {
-  color: #04be4f;
+  color: #ec8d09;
 }
 .div-Hojas-texto p {
   color: black;
@@ -219,7 +219,7 @@
 
 /*Sección Formulario*/
 .Seccion-Formulario {
-  background-color: #04be4f;
+  background-color: #ec8d09;
   padding: 2.5rem;
   border: 1.875rem;
   display: flex;
@@ -229,7 +229,7 @@
 .div-cont-formulario {
   background-color: whitesmoke;
   padding: 1.875rem;
-  border: 0.125rem solid #00752f;
+  border: 0.125rem solid #ec8d09;
   border-radius: 0.625rem;
   width: 100%;
   max-width: 500px;
